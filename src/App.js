@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
   
@@ -11,6 +12,10 @@ function App() {
 }
 
 function Countries() {
+  const [countries, setCountries] = useState ([]);
+  useEffect(() => {
+    fetch('https://restcountries.eu/rest/v2/all')
+  })
    return (
      <div>
        <h2>Practice to do make a rest countries api using by react</h2>
