@@ -15,6 +15,7 @@ function Countries() {
   const [countries, setCountries] = useState ([]);
   useEffect(() => {
     fetch('https://restcountries.eu/rest/v2/all')
+    .than(res =>)
   })
    return (
      <div>
