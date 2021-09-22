@@ -8,8 +8,9 @@ function App() {
   return (
     <div className="App">
       <Countries></Countries>
+      
     </div>
-  )
+  );
 }
 
 // function Countries() {
@@ -43,4 +44,4 @@ function App() {
 //   )
 // } 
 
-// export default App;
+export default App;
