@@ -1,14 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import Countries from './components/Countries/Countries';
-import Header from '.components/Header/Header'
+// import Header from '.components/Header/Header'
 // import React, { useEffect, useState } from 'react'
 // import Countries from './components/Countries/Countries';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/* <Header></Header> */}
+      
       <Countries></Countries>
     </div>
   );
